@@ -36,13 +36,13 @@ We can conclude that Random Forest Classifier and XG- Boost Classifier performed
 
 - Open the Notebook.ipynb file on Google Colab
 - Copy [this](https://drive.google.com/drive/folders/1HRDxih_6xN0uU2Js3xGF8zp5r_XPSEJc?usp=sharing) folder to your Google Drive
-- Mount the Google Drive and modify the folder path in the preprocess method accordingly.
+- Mount the Google Drive and modify the folder path in the preprocess method accordingly
 
 ### Local System
 
 - Install necessary modules : `pip install -r requirements.txt` 
-- Download the datasets from [here](https://drive.google.com/drive/folders/1HRDxih_6xN0uU2Js3xGF8zp5r_XPSEJc?usp=sharing).
-- Modify the folder path in the preprocess method accordingly.
+- Download the datasets from [here](https://drive.google.com/drive/folders/1HRDxih_6xN0uU2Js3xGF8zp5r_XPSEJc?usp=sharing)
+- Modify the folder path in the preprocess method accordingly
 
 ## Collaborators
 [Rhythm Patel](https://github.com/rhythm-patel)      
