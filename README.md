@@ -1,6 +1,13 @@
 # Predicting Flight Delays :airplane:
 
-The growth of the aviation sector has made flight delaysmore common across the world.  They cause inconvenienceto the travellers and incur monetary losses to the airlines.We analysed the various factors responsible for flight delaysand applied machine learning models such as Random For-est, XGBoost, Logistic Regression, Decision Tree and NaiveBayes to predict whether a given flight would be delayed ornot.  The `XGBoost Classifier` performed exceptionally well, giving an accuracy of `0.8`8 and an AUC of `0.93`.
+The growth of the aviation sector has made flight delaysmore common across the world.  They cause inconvenienceto the travellers and incur monetary losses to the airlines.We analysed the various factors responsible for flight delaysand applied machine learning models such as **Random Forest, XGBoost, Logistic Regression, Decision Tree and NaiveBayes** to predict whether a given flight would be delayed ornot.  The `XGBoost Classifier` performed exceptionally well, giving an accuracy of `0.88` and an AUC of `0.93`.
+
+## Dataset
+We used the 2015 Flight Delays and Cancellations Dataset, collected and published by U.S. DOT’s Bureau of Transportation Statistics. After cleaning, a dataset with dimensions `456697 × 11` was obtained.
+
+- **Categorical Features:** Airline, Origin, Destination
+- **Numerical Features:** Distance, Taxi Out, Departure Delay, Day of Week, Arrival Delay
+- **Date/Time Features:** Date, Scheduled Departure, Scheduled Arrival
 
 ## Usage
 
