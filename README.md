@@ -15,6 +15,8 @@ We used the 2015 Flight Delays and Cancellations Dataset, collected and publishe
 - It was found that the mean delays of flight dropped with an increase in route distance. However, flights travelling distances over 3000Km showed a spike in delays. 
 - We also conducted a statistical study of different numerical features in the dataset and derived important insights about their distributions. It was found that almost 68% of the flights had no delay or a delay of less than 3 minutes.
 
+<img width="374" alt="eda" src="https://user-images.githubusercontent.com/42066451/118357425-c1bcd800-b597-11eb-81a0-5b9910eb0acc.png">
+
 ## Methodology :gear:
 
 To validate the performance of our models, we per- formed a train-val-test split of 70:10:20. We trained Random Forest Classifier, XGBoost Classifier, Naive Bayes Classifier, Decision Tree and Logistic Regression, from the Sklearn library, on the training set. Grid Search CV was used to find optimal hyper-parameters for the models. Appropriate graphs and metrics were generated for the analysis and performance of the different models were compared.
@@ -29,6 +31,8 @@ We can conclude that Random Forest Classifier and XG- Boost Classifier performed
 | Precision    |  0.88  | 0.79  | 0.72  | 0.89  | 0.88  |
 | Recall       |  0.73  | 0.68  | 0.74  | 0.75  | 0.74  |
 | F1-score     |  0.79  | 0.73  | 0.73  | 0.81  | 0.80  |
+
+<img width="439" alt="roc" src="https://user-images.githubusercontent.com/42066451/118357432-ce413080-b597-11eb-8860-e21ca8b6402d.png">
 
 ## Usage
 
